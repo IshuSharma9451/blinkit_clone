@@ -165,18 +165,20 @@ white-space: nowrap;
     gap: 0.125rem;
     display: flex;
 }
-.main-container .dairy ,.main-container .snacks{
+.main-container .dairy ,.container {
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
 }
 .headline-content{
     display: flex;
     justify-content: space-between;
 }
-.headline-content .see-all {
+.headline-content{
     margin-right: 12px;
 
 }
-.headline-content .see-all a{
+.headline-content{
     text-decoration: none;
     font-weight: 400;
     color: rgb(12, 131, 31);
